@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #594c40;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    color: #2c3e50;
+}
+
+header {
+    background-image: url('path/to/your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+    color: #f5f5dc;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 50px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #f5f5dc;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color:  #f5f5dc;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    margin: 20px;
+    background-color:  #f5f5dc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    color: #000;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.feature {
+    background-color: #f5f5dc; /* لون الخلفية البيج */
+    border: 2px solid #594c40; /* إطار أخضر غامق */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.feature h3 {
+    color: #000; /* لون العنوان الأسود */
+}
+
+.feature p {
+    color: #594c40; /* لون النص الأخضر الغامق */
+}
+
+.feature:hover {
+    transform: scale(1.05); /* تكبير عند التمرير */
+    background-color: #594c40; /* تغيير الخلفية عند التمرير */
+    color: #f5f5dc; /* لون النص البيج عند التمرير */
+    cursor: pointer;
+}
+
+.feature:hover h3, .feature:hover p {
+    color: #f5f5dc; /* لون النص البيج عند التمرير */
+}
+
+.feature:hover::after {
+    content: "✦"; /* رمز إضافي لعرض التأثير */
+    font-size: 20px;
+    color: #f5f5dc; /* لون الرمز البيج */
+    display: block;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color:  #f5f5dc;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+.social-icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* تكبير الأيقونة عند التمرير */
+}
+.social-icons i {
+    font-size: 24px;
+    color: #f5f5dc; /* لون الأخضر الغامق */
+    margin-right: 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons i:hover {
+    transform: scale(1.2); /* تكبير الأيقونة عند التمرير */
+    color: #A7782d; /* لون البيج عند التمرير */
+}
